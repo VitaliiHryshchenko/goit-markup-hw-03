@@ -1,0 +1,141 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+ul, ol {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+.contacts {
+    font-style: normal;
+}
+.page-head .logo{
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+    color: #4D5AE5;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    }
+.page-head .logo-studio {
+    font-family: "Raleway", sans-serif;
+    color: #2E2F42;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+}
+.page-nav .link{
+    color: #2E2F42;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+   } 
+.page-nav .link:hover,
+.page-nav .link:focus {
+     color: #404BBF;        
+}
+.contacts {
+    font-style: normal
+}
+.page-contacts {
+    color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+.page-contacts:hover,
+.page-contacts:focus {
+    color: #404BBF;
+}
+.but {
+        color: #ffffff;
+        background-color: #4D5AE5;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.04em;
+        cursor: pointer;
+}
+.but:hover,
+.but:focus {
+    background-color: #404BBF;
+}
+.section-one {
+    background-color: #2e2f42;
+}
+.title {
+    color: #ffffff;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+.section-two .section-title {
+    color: #2e2f42;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+} 
+.category {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+.section-three{
+    background-color:#F4F4FD;
+}
+.section-three .image-three{
+    background-color: #ffffff;
+}
+.section-three .section-title {
+    color: #2e2f42;
+    font-size: 36px;
+    line-height: 1.11;
+    text-transform: capitalize;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+.section-three .text-three {
+    font-size: 16px;
+}
+.section-four .section-title {
+    color: #2e2f42;
+    font-size: 36px;
+    line-height: 1.11;
+    text-transform: capitalize;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+.closed-part {
+    background-color: #2e2f42;
+}
+.closed-part .logo{
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+    color: #4D5AE5;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+}
+.closed-part .logo-studio{
+    color: #F4F4FD;
+}
+.closed-part .text-part {
+    color: #F4F4FD;
+}
