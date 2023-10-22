@@ -201,7 +201,7 @@ h1,h2,h3,h4,h5,h6,p {
   .section-two .menu-two {
       display: flex;
       gap: 24px;
-      width:calc((100%-3*24px)/4);
+      width: calc((100% - 3 * 24px) / 4);
 }
   .list-two {
       width: 264px;
@@ -218,7 +218,7 @@ h1,h2,h3,h4,h5,h6,p {
 
   .section-three .image-three {
       background-color: #ffffff;
-     border-radius: 0px 0px 4px 4px;
+      border-radius: 0px 0px 4px 4px;
 }
 
   .section-three .section-title {
@@ -247,7 +247,7 @@ h1,h2,h3,h4,h5,h6,p {
   .menu-three {
       display: flex;
       gap: 24px;
-      width:calc((100%-3*24px)/4); 
+      width:calc((100% - 3 * 24px) / 4); 
 }
   .image-three {
     width: 264px;
@@ -276,7 +276,7 @@ h1,h2,h3,h4,h5,h6,p {
       column-gap: 24px;
       row-gap: 48px; 
       flex-wrap: wrap;
-      width:calc((100%-2*24px)/3);
+      width:calc((100% - 2 * 24px) / 3);
 }
 .section-four .category {
       text-align: left;
@@ -303,9 +303,8 @@ h1,h2,h3,h4,h5,h6,p {
 }
 .closed-part .logo {
       margin-bottom: 16px;
-      display: inline-block;
 }
-.closed-part .logo-studio {
+#logofooter {
      display: inline-block;
 }
    
