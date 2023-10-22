@@ -183,7 +183,7 @@ h1,h2,h3,h4,h5,h6,p {
   .section-two {
       padding: 120px 0;
 }
-.visual-hidden{
+.section-two .visual-hidden{
     position: absolute;
     width: 1px;
     height: 1px;
@@ -194,11 +194,9 @@ h1,h2,h3,h4,h5,h6,p {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+    margin-bottom: 8px;
 }
-  .section-two .section-title {
-      margin-bottom: 8px;
-}
-  .section-two .menu-two {
+   .container .menu-two {
       display: flex;
       gap: 24px;
       width: calc((100%-72px) / 4);
@@ -230,8 +228,7 @@ h1,h2,h3,h4,h5,h6,p {
       color: #2e2f42;
       margin-left: auto;
       margin-right: auto;
-      margin-bottom: 8px;
-      padding-bottom: 72px;
+      margin-bottom: 72px;
 }
   .name-team {
       text-align: center;
@@ -244,7 +241,7 @@ h1,h2,h3,h4,h5,h6,p {
       margin-right: auto;
       text-align: center;
 }
-  .menu-three {
+  .container .menu-three {
       display: flex;
       gap: 24px;
       width:calc((100%-72px) / 4); 
@@ -304,7 +301,7 @@ h1,h2,h3,h4,h5,h6,p {
 .closed-part .logo {
       margin-bottom: 16px;
 }
-.container a #logofooter {
+.container #logofooter {
      display: inline-block;
 }
    
