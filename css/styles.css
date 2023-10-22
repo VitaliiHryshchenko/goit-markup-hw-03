@@ -199,7 +199,10 @@ h1,h2,h3,h4,h5,h6,p {
    .container .menu-two {
       display: flex;
       gap: 24px;
-      width: calc((100%-72px)/4);
+     
+}
+.menu-two .list-two{
+      width: calc((100% - 72px) / 4);
 }
   .list-two {
       width: 264px;
@@ -247,7 +250,9 @@ h1,h2,h3,h4,h5,h6,p {
   .container .menu-three {
       display: flex;
       gap: 24px;
-      width:calc((100%-72px)/4); 
+}
+.menu-three .image-three{
+      width: calc((100% - 72px) / 4);
 }
   .image-three {
     width: 264px;
@@ -276,8 +281,7 @@ h1,h2,h3,h4,h5,h6,p {
       column-gap: 24px;
       row-gap: 48px; 
       flex-wrap: wrap;
-      width: calc((100%-48px)/3);
-}
+     }
 .section-four .category {
       text-align: left;
       padding-left: 16px;
@@ -288,6 +292,9 @@ h1,h2,h3,h4,h5,h6,p {
 .text-four {
       padding-left: 16px;
       padding-bottom: 32px;
+}
+.list-four .menu-four {
+      width: calc((100% - 72px) / 4);
 }
 /* ========== footer ========== */
 .closed-part{
