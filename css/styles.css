@@ -184,16 +184,16 @@ h1,h2,h3,h4,h5,h6,p {
       padding: 120px 0;
 }
   .visual-hidden {
-      position: absolute;
-      width: 1px;
-      height: 1px;
-      margin: -1px;
-      border: 0;
-      padding: 0;
-      white-space: nowrap;
-      clip-path: inset(100%);
-      clip: rect(0 0 0 0);
-      overflow: hidden;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
   .section-two .section-title {
       margin-bottom: 8px;
@@ -201,7 +201,7 @@ h1,h2,h3,h4,h5,h6,p {
   .section-two .menu-two {
       display: flex;
       gap: 24px;
-      width: calc((100% - 3 * 24px) / 4);
+      width: calc((100%-3*24px) / 4);
 }
   .list-two {
       width: 264px;
@@ -247,7 +247,7 @@ h1,h2,h3,h4,h5,h6,p {
   .menu-three {
       display: flex;
       gap: 24px;
-      width:calc((100% - 3 * 24px) / 4); 
+      width:calc((100%-3*24px) / 4); 
 }
   .image-three {
     width: 264px;
@@ -276,7 +276,7 @@ h1,h2,h3,h4,h5,h6,p {
       column-gap: 24px;
       row-gap: 48px; 
       flex-wrap: wrap;
-      width:calc((100% - 2 * 24px) / 3);
+      width: calc((100%-2*24px) / 3);
 }
 .section-four .category {
       text-align: left;
